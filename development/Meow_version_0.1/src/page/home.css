@@ -1,0 +1,228 @@
+.memoWindowBody{
+    width: 1000px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 300px;
+    flex-direction: column;
+}
+.homeUp{
+    flex: 20%;
+}
+.homeDown{
+    flex: 80%;
+    display: flex;
+    flex-direction: row;
+}
+.HomeLeft{
+    position: relative;
+    flex: 40%;
+}
+
+.HomeRight{
+    flex: 40%;
+    margin-left: 100px;
+}
+.memoBody{
+    width: 392px;
+    height: 382px;
+    background-color: rgb(255, 252, 87);
+    padding-top: 10px;
+    border: 1px solid black;
+    padding-left: 8px;
+    padding-top: 18px;
+}
+
+
+/* .memoBody:after {
+	content: "";
+	display: block;
+	width: 400px;
+    height: 400px;
+	margin-left: 10px;
+    margin-bottom: -10px;
+	border: 1px solid rgb(0, 0, 0);
+} */
+
+.homeDate,.homeDate2,.homeLogin{
+    font-size: 60px;
+    font-family: 'Bungee', cursive;
+    -webkit-text-stroke: 0.6px black;
+    color: white;
+    margin-bottom: -70px;
+}
+.homeLogo{
+    height: 140px;
+}
+
+.HomeRightRight{
+    position: relative;
+    flex: 20%;
+    margin-top: 100px;
+    margin-left: 30px;
+
+}
+
+
+.homeDate2{
+    margin-bottom: -80px;
+}
+
+/* .eachMemo:before {
+	content: "";
+	display: block;
+	width: 400px;
+    height: 120px;
+	border: 1px solid rgb(0, 0, 0);
+} */
+
+.inline2{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.homeLogin{
+    font-size: 40px;
+    margin-left: 40px;
+    margin-top: -20px;
+    height: 100px;
+    text-shadow: 4px 4px 3px #fff45b;
+    transition: all 0.5s;
+}
+
+.homeLogin:hover{
+    text-shadow: 4px 4px 3px #5bfaff;
+}
+
+.memoWrite{
+    width: 380px;
+    height: 330px;
+    border: none;
+    font-size: 30px;
+    background-color: transparent;
+    margin-top: 5px;
+    resize: none;
+    font-family: 'Raleway', sans-serif;
+    padding-right: 28px;
+}
+
+.memoWrite::-webkit-scrollbar {     
+    width: 10px;     
+    background-color: rgb(243, 243, 243);
+    border-radius: 10px; 
+    border: 0.5px solid rgb(0, 0, 0);  
+
+}   /* 滚动条的设置 */   
+.memoWrite::-webkit-scrollbar-thumb {     
+    border-radius: 10px;   
+    background-color:  #ffffff; 
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.memoWrite:focus{outline:none} 
+
+.memoWriteTitle,.allTitle{
+    width: 345px;
+    height: 35px;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    background-color: transparent;
+    vertical-align: center;
+    border: none;
+    border-bottom: 1px solid black;
+    font-weight: 1000;
+}
+
+.memoWriteTitle:focus{outline:none} 
+
+.iconadd,.iconconfirm{
+    height: 30px;
+    font-size: 50px;
+    font-weight: 100;
+    vertical-align: center;
+    margin-right: 6px;
+    opacity: 0.6;
+}
+
+.iconconfirm{
+    float: right;
+    height: 60px;
+    margin-top: -60px;
+    opacity: 0.1;
+    transition:opacity 0.5s;
+}
+
+.iconconfirm:hover{
+    opacity: 1;
+}
+
+.gray{
+    -webkit-text-stroke: 0.4px rgb(207, 207, 207);
+    z-index: 100;
+}
+
+.year{
+    font-size: 45px;
+    margin-top: -8px;
+    user-select: none;
+}
+
+.iconUp{
+    position: relative;
+    left: 40px;
+    height: 40px;
+    bottom: -65px;
+    color: rgb(150, 150, 150);
+    transition: color 0.5s;
+    user-select: none;
+}
+
+.iconDown{
+    position: relative;
+    left: 40px;
+    height: 40px;
+    top: 8px;
+    color: rgb(150, 150, 150);
+    transition: color 0.5s;
+    user-select: none;
+    z-index: 100;
+}
+
+.iconUp:hover{
+    color: black;
+}
+
+.iconDown:hover{
+    color: black;
+}
+
+.homeYear{
+    width: 100px;
+    position: relative;
+    top: -13px;
+}
+
+.homeAllMemo{
+    position: relative;
+    top: -70px;
+}
+
+.allMemo{
+    position: relative;
+    top: -40px;
+    margin-right: 10px;
+}
+
+.iconOK{
+    position: relative;
+    left: 100px;
+    height: 40px;
+    top: -30px;
+    color: rgb(150, 150, 150);
+    transition: color 0.5s;
+    user-select: none;
+    z-index: 100;
+}
+
+.iconOK:hover{
+    color: black;
+}

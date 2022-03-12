@@ -1,0 +1,56 @@
+.homeDate3{
+    font-size: 60px;
+    font-family: 'Bungee', cursive;
+    -webkit-text-stroke: 0.6px black;
+    color: white;
+    margin-bottom: -70px;
+    margin-bottom: -70px;
+    width: 10px;
+}
+
+.eachMemo{
+    width: 390px;
+    height: 100px;
+    background-color: aqua;
+    padding-left: 10px;
+    padding-top: 20px;
+    margin-bottom: -100px;
+    transition: height 1s;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.eachMemo:hover{
+    height: 200px;
+}
+
+.iconadd{
+    height: 30px;
+    font-size: 50px;
+    font-weight: 100;
+    vertical-align: center;
+    margin-right: 6px;
+    opacity: 0.6;
+}
+
+.allTitle{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    border-color: rgb(160, 160, 160);
+}
+
+.allContent{
+    height: 0px;
+    margin-top: 10px;
+    overflow: hidden;
+    border: none;
+    transition: height 1s;
+    color: rgb(75, 75, 75);
+    width: 345px;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+}
+
+.eachMemo:hover .allContent{
+    height: 120px;
+}

@@ -1,0 +1,209 @@
+
+.loginContent{
+  background-color: rgb(253, 253, 253);
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  margin-top: 60px;
+  border: 0px solid rgba(153, 153, 153, 0.794);
+}
+
+.container1{
+  flex: 40%;
+}
+.loginBody{
+  position: relative;
+  width: 550px;
+  height: 620px;
+  background-color: rgb(255, 255, 255);
+  left: 18%;
+  padding: 15px;
+  border: 1px solid rgba(153, 153, 153, 0.794);
+  /* border-top: 0px;
+  border-bottom: 0px; */
+  box-shadow: 6px 6px 0px 1px rgba(255, 245, 105, 0.931);
+}
+
+.loginInput, .loginBtn,.backToHome{
+  width: 500px;
+  height: 50px;
+  background-color: white;
+  border: 0.8px solid rgb(134, 134, 134);
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  box-shadow: 6px 6px 0px 1px rgba(255, 244, 87, 0.726);
+  transition: all 0.5s;
+}
+
+
+
+.loginInput:hover{
+  box-shadow: 6px 6px 0px 1px rgb(136, 255, 255);
+}
+
+.loginBtn:hover{
+  box-shadow: 6px 6px 0px 1px rgb(136, 255, 255);
+}
+
+.loginBtn:active{
+  transform:translate(10px,10px);
+  box-shadow: 0px 0px 0px 0px rgba(255, 244, 87, 0.726);
+}
+
+.loginInput:focus{outline:none} 
+
+.loginLogo{
+  height: 210px;
+  filter: drop-shadow(6px 6px 2px rgba(255, 245, 105, 0.931));
+}
+
+.username,.login,.loginBtn,.backToHome{
+  font-family: 'Bungee', cursive;
+  -webkit-text-stroke: 0.8px rgb(78, 78, 78);
+  color: white;
+  font-size: 25px;
+  margin-bottom: -10px;
+  margin-top: -2px;
+}
+
+.login{
+  font-size: 50px;
+  -webkit-text-stroke: 0.8px rgb(71, 71, 71);
+  margin-top: -30px;
+  margin-bottom: -30px;
+}
+
+.loginBtn{
+  margin: 0;
+  margin-top: 20px;
+  width: 140px;
+  height: 60px;
+  margin-left: 266px;
+}
+
+.inline{
+  display: inline-block;
+}
+
+.loginRight{
+  margin-top: 40px;
+  padding: 10px;
+  font-family: 'Raleway', sans-serif;
+  background-color: rgb(255, 255, 255);
+  height: 610px;
+  padding: 15px;
+}
+
+.noteEve{
+  font-size: 60px;
+  margin-top: 15px;
+  margin-bottom: 35px;
+  text-shadow: 2px 2px 2px #ffffff;
+  color: rgb(158, 158, 158);
+}
+.introWord{
+  font-size: 40px;
+  font-family: 'Flamenco', cursive;
+  color: rgb(95, 95, 95);
+  margin-bottom: 20px;
+}
+
+.loginBtn2{
+  margin-left: 278px;
+}
+
+.login2{
+  float: right;
+  margin-top: -40px;
+}
+
+.backToHome{
+  background-color: white;
+  position: relative;
+  left: 18%;
+  width: 330px;
+  box-shadow: 6px 6px 0px 1px rgba(255, 244, 87, 0.726);
+  height: 60px;
+  margin-bottom: 15px;
+  transition: all 0.3s;
+}
+
+.backToHome:hover{
+  box-shadow: 6px 6px 0px 1px rgb(136, 255, 255);
+}
+
+.backToHome:hover{
+  transform:translate(10px,10px);
+  box-shadow: 0px 0px 0px 0px rgba(255, 244, 87, 0.726);
+}
+
+.iconHome{
+  color: rgb(179, 179, 179);
+  height: 25px;
+  background-color: transparent;
+  font-weight: 100;
+  margin-right: 8px;
+}
+
+.loginSuggest{
+  font-size: 25px;
+  margin-right: 10px;
+  color: rgb(146, 146, 146);
+  margin-top: 180px;
+}
+
+.smallBtn{
+  width: 60px;
+  height: 30px;
+  margin: 0;
+  font-size: 15px;
+  margin-right: 15px;
+  box-shadow: 2px 2px 0px 0px rgba(255, 245, 105, 0.931);
+  font-family: 'Raleway', sans-serif;
+  -webkit-text-stroke: 0.1px rgb(78, 78, 78);
+  color: #000;
+}
+
+.suggestionInput{
+  width: 511px;
+  margin-top: 10px;
+  resize: none;
+  border: 1px solid rgba(153, 153, 153, 0.794);
+  box-shadow: 2px 2px 0px 0px rgba(255, 245, 105, 0.931);
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+  transition: all 1s;
+  opacity: 1;
+  margin-bottom: 8px;
+}
+
+.smallBtnMar{
+  margin-left: 382px;
+}
+
+.smallBtn:hover{
+  box-shadow: 2px 2px 0px 1px rgb(136, 255, 255);
+}
+
+.smallBtn:active{
+  transform:translate(2px,2px);
+  box-shadow: 0px 0px 0px 0px rgba(255, 244, 87, 0.726);
+}
+
+.suggestionInput::-webkit-scrollbar {     
+  width: 5px;     
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px; 
+
+}   /* 滚动条的设置 */   
+.suggestionInput::-webkit-scrollbar-thumb {     
+  border-radius: 10px;   
+  background-color:  #d4d4d4; 
+}
+
+.suggestionInput:focus{outline:none} 
+
+.subAnndCan{
+  height: 0;
+  opacity: 0;
+}
